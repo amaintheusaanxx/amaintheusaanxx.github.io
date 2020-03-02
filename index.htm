@@ -9,7 +9,7 @@
 	var imageCount = 1;
 	function RandomBG() {
 		var num = Math.ceil( Math.random() * imageCount );
-		document.body.background = 'images/bg'+num+'.png';
+		document.body.background = 'images/bg'+num+'.jpg';
 	}
 	
 	</script>
@@ -19,8 +19,8 @@
 	  min-height: 100%;
 	  background-attachment: fixed;
 	  background-position: top;
-	  background-repeat: no-repeat;
-	  background-size: cover;
+	  background-repeat: repeat;
+	  background-size: 30%; <!-- originally cover -->
 	}
 
 	input {
